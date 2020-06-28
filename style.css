@@ -1,0 +1,53 @@
+body, html {
+	height: 100%;
+}
+
+body{
+	background-size: cover;
+	background-image: url(images/bg2.jpg);
+	
+}
+
+#real{
+	background-image: url(images/bg.jpg);
+	background-size: 300px;
+	height: 100%;	
+	width: 100%;
+}
+
+#Start{
+	font-family: 'Bowlby One SC', cursive;
+	margin-left: 30%;
+	padding-top: 30%;
+	background-color: transparent;
+	font-size: 100px;
+	color:forestgreen;
+	border-color: transparent;
+}
+
+#temp{
+	height: 100%;
+	border-color: transparent;
+	background-image: url(images/bg.jpg);
+	background-size: 300px;
+	justify-content: center;
+	align-items: center;
+	padding-top: 25%;
+	margin-left: 30%;
+	color: goldenrod;	
+	font-size: 3em; 
+	font-family: 'Bowlby One SC', cursive;
+}
+
+#score{                                      
+					color:red;
+					width: 85px;
+					text-align: center;
+					font-weight: bolder;
+					height: 50px;   
+					float: right;
+					margin-left:175px;
+					font-size: 42px;
+					background-color: yellow;
+					border-radius: 5px;
+}
